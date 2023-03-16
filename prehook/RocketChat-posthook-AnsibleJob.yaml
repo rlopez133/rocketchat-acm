@@ -10,7 +10,7 @@ spec:
   job_template_name: RocketChat Volsync
   tower_auth_secret: aap2-cred
   extra_vars:
-    my_name: rocketchat-backup
+    my_name: rocketchat-backup1
     source_pvc: rocketchat-data-claim
     my_namespace: rocketchatapp
     repo: restic-config
