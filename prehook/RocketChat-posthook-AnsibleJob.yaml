@@ -5,7 +5,7 @@ metadata:
   name: ansible-job-volsync
   namespace: rocketchatapp
   labels:
-    app.kubernetes.io/name: rocketchatapp
+    app.kubernetes.io/name: rocketchat
 spec:
   job_template_name: RocketChat Volsync
   tower_auth_secret: aap2-cred
